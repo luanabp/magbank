@@ -1,9 +1,12 @@
 .navbar {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 200;
   background-color: #7b34b1;
   border-bottom: 0.2rem solid #f05656;
 
   a.dropdown-toggle.nav-link {
     color: #fff;
+    padding: unset;
   }
 
   a.dropdown-toggle.nav-link:hover {

@@ -11,7 +11,7 @@ import "./Navbar.scss";
 import logo from "../assets/logo.svg";
 
 const Navigation = () => (
-  <Navbar variant="dark" expand="lg">
+  <Navbar variant="dark" expand="lg" className="sticky-top">
     <Container>
       <Navbar.Brand href="#home">
         <img
@@ -23,14 +23,18 @@ const Navigation = () => (
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto px-5">
           <Nav.Link href="#cartao">Cartão</Nav.Link>
           <Nav.Link href="#quemsomos">Quem somos</Nav.Link>
           <Nav.Link href="#faq">FAQ</Nav.Link>
         </Nav>
-        <ButtonGroup aria-label="Basic example">
+        <ButtonGroup aria-label="Basic example" size="sm">
           <Button variant="outline-light">
-            <NavDropdown title="Acessar minha conta" id="basic-nav-dropdown">
+            <NavDropdown
+              title="Acessar minha conta"
+              id="basic-nav-dropdown"
+              className="my-0"
+            >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action

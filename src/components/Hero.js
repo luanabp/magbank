@@ -13,7 +13,9 @@ const Hero = () => (
       </Col>
       <Col lg className="text-lg-left my-lg-5">
         <p>Pague suas contas pelo nosso APP</p>
-        <Button variant="outline-light">Abra sua conta</Button>
+        <Button variant="outline-light" className="my-1 px-5 py-2">
+          Abra sua conta
+        </Button>
       </Col>
     </Row>
   </Jumbotron>
