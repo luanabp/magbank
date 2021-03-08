@@ -13,11 +13,11 @@ import "./Credit.scss";
 const Credit = () => (
   <Container className="my-5 pt-5">
     <Row>
-      <Col xs={12} lg={7} className="mb-5 mb-lg-0 px-5 px-lg-0">
+      <Col xs={12} lg={7} className="mb-5 mb-lg-0 pl-0 px-lg-0">
         <Row>
-          <h2 className="my-5 credit-title">Cartão de crédito</h2>
+          <h2 className="my-5 mx-5 credit-title">Cartão de crédito</h2>
         </Row>
-        <Row>
+        <Row className="mx-5">
           <Col xs={12} lg={6} className="mb-4">
             <IconText
               icon={faCreditCard}

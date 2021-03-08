@@ -5,7 +5,7 @@ import "./CtaButton.scss";
 const CtaButton = ({ children }) => (
   <Container className="pb-3">
     <Row className="d-flex justify-content-center">
-      <Button className="my-5 px-5 py-2 btn-cta" variant="success" size="lg">
+      <Button variant="success" className="my-5 px-5 py-2 btn-cta" size="lg">
         {children}
       </Button>
     </Row>
