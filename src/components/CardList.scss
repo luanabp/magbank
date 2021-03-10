@@ -1,14 +1,16 @@
+@import "../variables";
+
 .btn-card {
-  background-color: #f05656 !important;
+  background-color: $color-secondary !important;
   border: unset !important;
 }
 
 .btn-card:hover {
-  background-color: #6c757d !important;
+  background-color: $color-hover !important;
 }
 
 .posts {
-  color: #212529;
+  color: $color-text;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
 }

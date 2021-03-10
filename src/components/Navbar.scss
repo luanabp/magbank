@@ -1,15 +1,17 @@
+@import "../variables";
+
 .navbar {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 200;
-  background-color: #7b34b1;
-  border-bottom: 0.2rem solid #f05656;
+  background-color: $color-primary;
+  border-bottom: 0.2rem solid $color-secondary;
 
   a.dropdown-toggle.nav-link {
-    color: #fff;
+    color: $color-bg;
     padding: unset;
   }
 
   a.dropdown-toggle.nav-link:hover {
-    color: #212529;
+    color: $color-text;
   }
 }
