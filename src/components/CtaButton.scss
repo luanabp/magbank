@@ -1,0 +1,12 @@
+@import "../variables";
+
+.btn-cta {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 200;
+  background-color: $color-acent !important;
+  border: unset !important;
+}
+
+.btn-cta:hover {
+  background-color: $color-hover !important;
+}

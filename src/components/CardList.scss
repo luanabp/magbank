@@ -1,0 +1,20 @@
+@import "../variables";
+
+.btn-card {
+  background-color: $color-secondary !important;
+  border: unset !important;
+}
+
+.btn-card:hover {
+  background-color: $color-hover !important;
+}
+
+.posts {
+  color: $color-text;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+.card-title {
+  font-weight: 600 !important;
+}
