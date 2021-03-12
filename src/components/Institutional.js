@@ -27,16 +27,16 @@ const Institutional = () => (
             nec diam.
           </p>
           <div className="pr-2 pl-1 my-5">
-            <IconText icon={faMobileAlt} color="#fff" className="mb-3">
+            <IconText icon={faMobileAlt} color="#fff" className="mb-2">
               Sem fila e sem burocracia
             </IconText>
-            <IconText icon={faMobile} color="#fff" className="mb-3">
+            <IconText icon={faMobile} color="#fff" className="mb-2">
               Simples e prático
             </IconText>
-            <IconText icon={faGlobe} color="#fff" className="mb-3">
+            <IconText icon={faGlobe} color="#fff" className="mb-2">
               Abertura de conta 100% online
             </IconText>
-            <IconText icon={faShieldAlt} color="#fff" className="mb-3">
+            <IconText icon={faShieldAlt} color="#fff" className="mb-2">
               Transações mais seguras
             </IconText>
           </div>

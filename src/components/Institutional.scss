@@ -2,16 +2,16 @@
   background-image: url("../assets/institutional.jpg");
   background-size: cover;
   background-position: center top;
-}
 
-.institutional-title {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 300;
-  font-size: 2.2rem;
-  line-height: 1.2rem;
+  &-title {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 1.2rem;
 
-  @media screen and (min-width: 992px) {
-    font-size: 3.5rem;
+    @media screen and (min-width: 992px) {
+      font-size: 3.5rem;
+    }
   }
 }
 

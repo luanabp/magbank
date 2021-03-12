@@ -22,7 +22,7 @@ const Credit = () => (
             <IconText
               icon={faCreditCard}
               size={2}
-              textClassName="px-0 h5 text-muted"
+              textClassName="px-2 h5 text-muted"
             >
               Crédito Pessoal
             </IconText>
@@ -31,7 +31,7 @@ const Credit = () => (
             <IconText
               icon={faMobile}
               size={2}
-              textClassName="px-0 h5 text-muted"
+              textClassName="px-2 h5 text-muted"
             >
               APP
             </IconText>
@@ -41,7 +41,7 @@ const Credit = () => (
             <IconText
               icon={faShoppingCart}
               size={2}
-              textClassName="px-0 h5 text-muted"
+              textClassName="px-2 h5 text-muted"
             >
               Pagamentos Online
             </IconText>
@@ -50,7 +50,7 @@ const Credit = () => (
             <IconText
               icon={faWallet}
               size={2}
-              textClassName="px-0 h5 text-muted"
+              textClassName="px-2 h5 text-muted"
             >
               Carteira Digital
             </IconText>
