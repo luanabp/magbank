@@ -1,0 +1,24 @@
+@import "../variables";
+
+.form-title{
+  font-family: "Nunito Sans", sans-serif;
+  color:  $color-primary;  
+  font-size: 1.5rem;
+  font-weight: 600 !important;
+}
+
+.btn-account{
+background-color: $color-primary !important;
+border: unset !important;
+}
+
+.btn-cancel{    
+border: unset !important;
+}
+
+.form-group-label{
+    display: block;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
